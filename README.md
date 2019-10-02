@@ -18,10 +18,11 @@ php -S localhost:{port} -t ./public/
 ./vendor/bin/phpunit
 ```
 
-### Kekurangan
+### Catatan
 
 ```
 1. endpoint untuk 'history', 'templates' belum selesai
 2. GET request untuk 'checklist' dan 'items' hanya bisa paginasi
    itupun bawaan dari laravel (belum bisa filter, sorting)
+3. test case yang sudah selesai masih untuk model 'items' dan 'checklists'
 ```

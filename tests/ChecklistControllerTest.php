@@ -44,6 +44,12 @@ class ChecklistControllerTest extends TestCase
 		]);
 	}
 
+	public static function createChecklistData()
+	{
+		$inst = new static;
+		$inst->testCanCreateDataByExampleSchema();
+	}
+
 	public function testTryToGetDataByIDWithNoToken()
 	{
 		$response = $this->call(
